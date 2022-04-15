@@ -1,6 +1,6 @@
 <?php
 
-namespace Astrotomic\Translatable;
+namespace Adibi\Translatable;
 
 use Illuminate\Support\ServiceProvider;
 
