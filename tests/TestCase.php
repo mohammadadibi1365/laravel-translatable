@@ -1,8 +1,8 @@
 <?php
 
-namespace Astrotomic\Translatable\Tests;
+namespace Adibi\Translatable\Tests;
 
-use Astrotomic\Translatable\TranslatableServiceProvider;
+use Adibi\Translatable\TranslatableServiceProvider;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Support\Facades\Schema;
