@@ -1,9 +1,9 @@
 <?php
 
-namespace Astrotomic\Translatable\Tests;
+namespace Adibi\Translatable\Tests;
 
-use Astrotomic\Translatable\Exception\LocalesNotDefinedException;
-use Astrotomic\Translatable\Locales;
+use Adibi\Translatable\Exception\LocalesNotDefinedException;
+use Adibi\Translatable\Locales;
 
 final class LocalesTest extends TestCase
 {
