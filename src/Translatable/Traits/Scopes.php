@@ -1,6 +1,6 @@
 <?php
 
-namespace Astrotomic\Translatable\Traits;
+namespace Adibi\Translatable\Traits;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\Relation;
