@@ -1,5 +1,5 @@
 {
-    "name": "astrotomic/laravel-translatable",
+    "name": "mohammadadibi1365/laravel-translatable",
     "description": "A Laravel package for multilingual models",
     "license": "MIT",
     "keywords": [
@@ -29,11 +29,11 @@
         }
         
     ],
-    "homepage": "https://astrotomic.info",
+    "homepage": "https://shardenroom.ir",
     "support": {
-        "email": "dev@astrotomic.info",
-        "issues": "https://github.com/Astrotomic/laravel-translatable/issues",
-        "source": "https://github.com/Astrotomic/laravel-translatable",
+        "email": "mohammadadibi1365@gmail.com",
+        "issues": "https://github.com/mohammadadibi1365/laravel-translatable/issues",
+        "source": "https://github.com/mohammadadibi1365/laravel-translatable",
         "docs": "https://docs.astrotomic.info/laravel-translatable"
     },
     "require": {
@@ -52,12 +52,12 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Astrotomic\\Translatable\\": "src/Translatable/"
+            "Adibi\\Translatable\\": "src/Translatable/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Astrotomic\\Translatable\\Tests\\": "tests/"
+            "Adibi\\Translatable\\Tests\\": "tests/"
         }
     },
     "config": {
@@ -66,7 +66,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Astrotomic\\Translatable\\TranslatableServiceProvider"
+                "Adibi\\Translatable\\TranslatableServiceProvider"
             ]
         }
     },
