@@ -20,7 +20,14 @@
             "email": "ds@dimsav.com",
             "homepage": "http://dimsav.com",
             "role": "Developer"
+        },
+        {
+            "name": "Mohammad Adibi",
+            "email": "mohammadadibi1365@gmail.com",
+            "homepage": "http://shardenroom.ir",
+            "role": "Developer"
         }
+        
     ],
     "homepage": "https://astrotomic.info",
     "support": {
