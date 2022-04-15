@@ -1,9 +1,9 @@
 <?php
 
-namespace Astrotomic\Translatable;
+namespace Adibi\Translatable;
 
-use Astrotomic\Translatable\Traits\Relationship;
-use Astrotomic\Translatable\Traits\Scopes;
+use Adibi\Translatable\Traits\Relationship;
+use Adibi\Translatable\Traits\Scopes;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
