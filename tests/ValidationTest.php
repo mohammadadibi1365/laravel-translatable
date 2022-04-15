@@ -1,9 +1,9 @@
 <?php
 
-namespace Astrotomic\Translatable\Tests;
+namespace Adibi\Translatable\Tests;
 
-use Astrotomic\Translatable\Locales;
-use Astrotomic\Translatable\Validation\RuleFactory;
+use Adibi\Translatable\Locales;
+use Adibi\Translatable\Validation\RuleFactory;
 use Illuminate\Validation\Rule;
 use Illuminate\Validation\Rules\RequiredIf;
 use InvalidArgumentException;
