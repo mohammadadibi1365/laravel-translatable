@@ -1,9 +1,9 @@
 <?php
 
-namespace Astrotomic\Translatable\Tests\Eloquent;
+namespace Adibi\Translatable\Tests\Eloquent;
 
-use Astrotomic\Translatable\Contracts\Translatable as TranslatableContract;
-use Astrotomic\Translatable\Translatable;
+use Adibi\Translatable\Contracts\Translatable as TranslatableContract;
+use Adibi\Translatable\Translatable;
 use Illuminate\Database\Eloquent\Model as Eloquent;
 
 class Person extends Eloquent implements TranslatableContract
