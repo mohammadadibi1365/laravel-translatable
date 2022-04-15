@@ -1,14 +1,14 @@
 <?php
 
-namespace Astrotomic\Translatable\Tests;
+namespace Adibi\Translatable\Tests;
 
-use Astrotomic\Translatable\Locales;
-use Astrotomic\Translatable\Tests\Eloquent\Country;
-use Astrotomic\Translatable\Tests\Eloquent\CountryStrict;
-use Astrotomic\Translatable\Tests\Eloquent\CountryTranslation;
-use Astrotomic\Translatable\Tests\Eloquent\Person;
-use Astrotomic\Translatable\Tests\Eloquent\Vegetable;
-use Astrotomic\Translatable\Tests\Eloquent\VegetableTranslation;
+use Adibi\Translatable\Locales;
+use Adibi\Translatable\Tests\Eloquent\Country;
+use Adibi\Translatable\Tests\Eloquent\CountryStrict;
+use Adibi\Translatable\Tests\Eloquent\CountryTranslation;
+use Adibi\Translatable\Tests\Eloquent\Person;
+use Adibi\Translatable\Tests\Eloquent\Vegetable;
+use Adibi\Translatable\Tests\Eloquent\VegetableTranslation;
 use Illuminate\Database\Eloquent\MassAssignmentException;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 use Illuminate\Support\Facades\App;
@@ -42,7 +42,7 @@ final class TranslatableTest extends TestCase
         $this->app->make('config')->set('translatable.translation_suffix', 'Trans');
 
         static::assertEquals(
-            'Astrotomic\Translatable\Tests\Eloquent\VegetableTrans',
+            'Adibi\Translatable\Tests\Eloquent\VegetableTrans',
             (new Vegetable())->getTranslationModelName()
         );
     }
