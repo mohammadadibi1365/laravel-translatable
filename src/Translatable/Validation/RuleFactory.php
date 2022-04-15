@@ -1,8 +1,8 @@
 <?php
 
-namespace Astrotomic\Translatable\Validation;
+namespace Adibi\Translatable\Validation;
 
-use Astrotomic\Translatable\Locales;
+use Adibi\Translatable\Locales;
 use Illuminate\Contracts\Config\Repository;
 use InvalidArgumentException;
 
