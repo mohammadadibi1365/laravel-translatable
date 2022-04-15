@@ -1,9 +1,9 @@
 <?php
 
-namespace Astrotomic\Translatable\Tests\Eloquent;
+namespace Adibi\Translatable\Tests\Eloquent;
 
-use Astrotomic\Translatable\Contracts\Translatable as TranslatableContract;
-use Astrotomic\Translatable\Translatable;
+use Adibi\Translatable\Contracts\Translatable as TranslatableContract;
+use Adibi\Translatable\Translatable;
 use Illuminate\Database\Eloquent\Model as Eloquent;
 
 class CountryStrict extends Eloquent implements TranslatableContract
@@ -19,7 +19,7 @@ class CountryStrict extends Eloquent implements TranslatableContract
 
     /**
      * Here we set a custom model for translation.
-     * The convention would be Astrotomic\Translatable\Tests\Models\CountryStrictTranslation.
+     * The convention would be Adibi\Translatable\Tests\Models\CountryStrictTranslation.
      *
      * @var string Class containing the translation
      */
